@@ -1,12 +1,12 @@
 {
-  "name": "TheLadyProject",
+  "name": "TheLady2015",
   "version": "1.0.0",
   "devDependencies": {
-    "gulp": "*",
-    "gulp-sass": "*",
-    "gulp-watch": "*"
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-watch": "^4.3.5"
   },
   "scripts": {
-   "postinstall": "find node_modules/ -name '*.info' -type f -delete; bower install --force"
- }
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete; bower install --force"
+  }
 }
