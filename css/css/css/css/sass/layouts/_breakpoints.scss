@@ -1,0 +1,107 @@
+// BREAKPOINTS
+// =============================================================================
+
+// MOST COMMON BREAKPOINTS
+// -----------------------------------------------------
+
+
+// MIN WIDTH/ MAX WIDTH MEDIA QUERIES
+// E.G @media (min-width: 300px) and (max-width: 600px)
+// -----------------------------------------------------
+
+$breakpoint1: 320px 375px;
+$breakpoint2: 376px 414px;
+$breakpoint3: 414px 480px;
+$breakpoint4: 481px 568px;
+$breakpoint5: 569px 667px;
+$breakpoint6: 668px 736px;
+$breakpoint7: 737px 935px;
+$breakpoint8: 935px 1024px;
+$breakpoint9: 1025px 1070px;
+$breakpoint10: 1071px 1180px;
+$breakpoint11: 320px 385px;
+$breakpoint12: 320px 379px;
+$breakpoint13: 320px 1179px;
+$breakpoint14: 320px 666px;
+$breakpoint15: 320px 414px;
+$breakpoint16: 668px 767px;
+
+
+// MOBILE SMALL
+// ---------------------------------------------------
+
+$mobile_small: 0px 472px;
+$mobile_small2: 0px 568px;
+$mobile_small3: 0px 667px;
+$mobile_small4: 473px 568px;
+$mobile_small5: 737px 935px;
+$mobile_small6: 935px 1070px;
+$mobile_small7: 473px 736px;
+$mobile_small8: 0px 768px;
+$mobile_small9: 768px 1070px;
+$mobile_small10: 0px 400px;
+$mobile_small11: 769px 1128px;
+$mobile_small12: 0px 935px;
+$mobile_small13: 936px 1010px;
+$mobile_small14: 0px 568px;
+$mobile_small15: 936px 1070px;
+$mobile_small16: 415px 568px;
+
+
+
+// MOBILE MEDIUM
+// ----------------------------------------------------
+
+$mobile_medium: 1011px 1166px;
+$mobile_medium2: 0px 1040px;
+$mobile_medium3: 520px 1040px;
+$mobile_medium4: 480px 667px;
+$mobile_medium5: 480px 567px;
+$mobile_medium6: 667px 1099px;
+$mobile_medium7: 935px 1180px;
+$mobile_medium8: 1071px 1180px;
+$mobile_medium9: 668px 935px;
+$mobile_medium10: 667px 1070px;
+$mobile_medium11: 935px 1023px;
+$mobile_medium12: 667px 934px;
+$mobile_medium13: 935px 1179px;
+$mobile_medium14: 376px 736px;
+$mobile_medium15: 737px 850px;
+$mobile_medium16: 851px 1070px;
+
+
+
+// MIN WIDTH MEDIA QUERIES
+// E.G @media (min-width: 320px) and above
+// ----------------------------------------------------
+
+$mobile_landscape_up: 473px;
+$mobile_landscape_up2: 480px;
+$large_smart_phone_up: 667px;
+$large_smart_phone_up2: 737px;
+$tablet_up: 768px;
+$tablet_up2: 935px;
+$nine_sixty_up: 960px;
+$tablet_landscape_up: 1024px;
+$tablet_landscape_up2: 1010px;
+$wide_up: 1200px;
+
+
+// MAX WIDTH MEDIA QUERIES
+// E.G @media (max-width: 1000px) and below
+// ------------------------------------------------------
+
+$mobile_landscape_down: max-width 479px;
+$mobile_landscape_down2: max-width 567px;
+$mobile_landscape_down3: max-width 580px;
+$mobile_landscape_down4: max-width 375px;
+$large_device_down: max-width 666px;
+$tablet_down: max-width 767px;
+$tablet_down2: max-width 736px;
+$nine_thirty_up: max-width 934px;
+$nine_sixty_down: max-width 959px;
+$tablet_landscape_down: max-width 1023px;
+$tablet_landscape_down2: max-width 1099px;
+$tablet_landscape_down3: max-width 1069px;
+$wide_down: max-width 1199px;
+$wide_down2: max-width 1179px;
