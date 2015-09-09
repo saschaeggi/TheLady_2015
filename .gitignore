@@ -1,5 +1,7 @@
-/bower_components/*
-/.sass-cache/*
-/node_modules/*
-*.DS_Store
-/stylesheets/*
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
