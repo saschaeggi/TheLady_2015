@@ -1,12 +1,14 @@
 //*********** IMPORTS *****************
-var gulp = require('gulp'),
-	sass = require('gulp-sass'),
-	watch = require('gulp-watch');
+var gulp 					= require('gulp'),
+		globbing      = require('gulp-css-globbing'),
+		sass 					= require('gulp-sass'),
+		watch 				= require('gulp-watch');
 
 
 //Gulp compling my Sass files into CSS
 gulp.task('sass', function (){
-	 gulp.src('sass/**/*.scss').
+	 gulp.src('sass/**/*.scss')
+	 .pipe(globbing({ extensions: ['.scss'] }))
 	 .pipe(sass())
 	 .pipe(gulp.dest('css/')); //save the css to this destination
 });
